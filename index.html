@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <title>O-fig-panier</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- En-tête -->
+        <header class="header">
+            <div class="header__title">
+                <h1>oFig</h1><span>Figurines et statuettes</span>
+            </div>
+
+            <div class="header__subtitle">
+                <h2>Votre Panier <em>2 produits</em>
+                </h2>
+            </div>
+        </header>
+
+        <!-- Contenu -->
+        <main class="main">
+            <h3>Préfèrences de livraison</h3>
+            <section class="delivery">
+                <section>
+                    <fieldset>
+                        <legend>Où souhaitez vous être livré ?</legend>
+
+                        <label for="adress">
+                            <input type="radio" id="adress" name="delivery">
+                            Mon adresse courante
+                        </label>
+
+                        <label for="other-adress">
+                            <input type="radio" id="other-adress" name="delivery">
+                            Autre adresse
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Options</legend>
+
+                        <label for="sms">
+                            <input type="checkbox" id="sms" name="sms">
+                            Suivi delivraison par sms (inclus)
+                        </label>
+
+                        <label for="remboursé">
+                            <input type="checkbox" id="remboursé" name="remboursé">
+                            Satisfait ou remboursé (+5€)
+                        </label>
+
+                        <label for="garantie">
+                            <input type="checkbox" id="garantie" name="garantie">
+                            Garantie 2 ans (+10€)
+                        </label>
+                    </fieldset>
+                </section>
+
+                <section>
+                    <fieldset>
+                        <legend>Adresse</legend>
+
+                        <label for="name">Rue</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="postal">Code postal</label>
+                        <input type="text" id="postal" name="postal" required>
+
+                        <label for="city">Ville</label>
+                        <input type="text" id="city" name="city" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Informations compémentaires</legend>
+
+                        <label for="phone">Interphone, bâtiment,etc...</label>
+                        <input type="text" id="additional-information" name="additional-information">
+                    </fieldset>
+                </section>
+            </section>
+
+            <section>
+                <p>Montant total à régler:
+                    <span class="total-price">197 €</span>
+                </p>
+            </section>
+            <section>
+                <button type="submit" class="btn__buy">Continuer vos achats</button>
+                <button type="submit" class="btn__paid">Valider et payer</button>
+            </section>
+        </main>
+
+        <!-- Pied de page -->
+        <footer class="footer">
+            <p>&copy; 2023 O-fig-panier. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
