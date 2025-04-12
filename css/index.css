@@ -58,6 +58,20 @@
     text-align: center;
   }
   
+  .total-summary { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* ombre */ 
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  hr{
+    margin-top: 1.5rem;
+  }
   
   /* Pied de page */
   .footer {
@@ -100,6 +114,11 @@
     background-color: rgb(176, 172, 172); /* nuance plus sombre */
   }
   
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
   
   /* Formulaire - Groupe de champs */
   fieldset {
@@ -143,8 +162,10 @@
     width: 1rem;
     height: 1rem;
   }
-  
-  
+
+  textarea {
+    background-color: rgb(239, 239, 239);
+  }
   /* Section livraison */
   .delivery {
     display: flex;
