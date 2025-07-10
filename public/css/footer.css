@@ -1,0 +1,20 @@
+/*  Couleurs */
+:root {
+    --main-color: rgb(183, 38, 25);
+    --secondary-color: rgb(102, 102, 102);
+    --color: rgb(255, 255, 255);
+    --color-light: rgb(239, 239, 239);
+    --color-dark: rgb(0, 0, 0);
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+
+    /* Pied de page */
+  .footer {
+    background-color: var(--secondary-color);
+    color: var(--color);
+    text-align: center;
+    padding: 1rem;
+  }

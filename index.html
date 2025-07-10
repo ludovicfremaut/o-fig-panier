@@ -4,107 +4,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/fonts.css">
-    <title>O-fig-panier</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/fonts.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="stylesheet" href="./public/css/header.css">
+    <link rel="stylesheet" href="./public/css/home.css">
+    <link rel="stylesheet" href="./public/css/footer.css">
+    <title>Figurines et statuettes</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- En-tête -->
-        <header class="header">
-            <div class="header__title">
+    <!-- En-tête -->
+    <header class="header">
+        <div class="header__title">
+            <div class="header__title-text">
                 <h1>oFig</h1><span>Figurines et statuettes</span>
             </div>
-
-            <div class="header__subtitle">
-                <h2>Votre Panier <em>2 produits</em>
-                </h2>
+            <div class="header__nav">
+                <a href="./intégration/panier.html">panier</a>
             </div>
-        </header>
+        </div>
+        <div class="header__subtitle">
+            <h2>Figurines sur le thème <em>Final Fantasy</em>
+            </h2>
+        </div>
+    </header>
+    <main class="main">
+        <section class="products">
+            <div class="products__sales-title">Soldes</div>
+            <div class="card">
+                <img class="card__image" src="./public/images/aerith.png" alt="Figurine Aerith">
+                <span class="card__badge">Final Fantasy Crisis Core</span>
+                <hr>
+                <h3>Aerith Gainsborough</h3>
+                <p>Figurine de 7 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <!-- <span class="add-to-cart__price__old-price">98,99 €</span> -->
+                        <span class="add-to-cart__price__new-price">74,99 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./public/images/cloud.png" alt="Figurine Cloud">
+                <span class="card__badge">Final Fantasy VII</span>
+                <hr>
+                <h3>Cloud Strife Remake</h3>
+                <p>Figurine de 8 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <span class="add-to-cart__price__old-price">79,99 €</span>
+                        <span class="add-to-cart__price__new-price">49,99 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./public/images/cloud-ac.png" alt="Figurine Cloud">
+                <span class="card__badge">Final Fantasy VII</span>
+                <hr>
+                <h3>Cloud Strife</h3>
+                <p>Figurine de 7 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <span class="add-to-cart__price__old-price">79,99 €</span>
+                        <span class="add-to-cart__price__new-price">49,99 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./public/images/cloud-bike.png" alt="Figurine Cloud">
+                <span class="card__badge">Final Fantasy VII</span>
+                <hr>
+                <h3>Cloud Strife & Fenrir</h3>
+                <p>Figurine de 7 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <span class="add-to-cart__price__old-price">79,99 €</span>
+                        <span class="add-to-cart__price__new-price">49,99 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./public/images/tifa.png" alt="Figurine Tifa">
+                <span class="card__badge">Final Fantasy Advent Children</span>
+                <hr>
+                <h3>Tifa Lockhart</h3>
+                <p>Figurine de 7 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <span class="add-to-cart__price__old-price">98,99 €</span>
+                        <span class="add-to-cart__price__new-price">69,99 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./public/images/vincent.png" alt="Figurine Vincent">
+                <span class="card__badge">Final Fantasy VII</span>
+                <hr>
+                <h3>Vincent Valentine</h3>
+                <p>Figurine de 7 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <!-- <span class="add-to-cart__price__old-price">79,99 €</span> -->
+                        <span class="add-to-cart__price__new-price">74,90 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./public/images/tifa.png" alt="Figurine Tifa">
+                <span class="card__badge">Final Fantasy Advent Children</span>
+                <hr>
+                <h3>Tifa Lockhart</h3>
+                <p>Figurine de 7 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <span class="add-to-cart__price__old-price">98,99 €</span>
+                        <span class="add-to-cart__price__new-price">69,99 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./public/images/cloud-ac.png" alt="Figurine Cloud">
+                <span class="card__badge">Final Fantasy VII</span>
+                <hr>
+                <h3>Cloud Strife Remake</h3>
+                <p>Figurine de 8 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <span class="add-to-cart__price__old-price">79,99 €</span>
+                        <span class="add-to-cart__price__new-price">49,99 €</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./public/images/cloud-ac.png" alt="Figurine Cloud">
+                <span class="card__badge">Final Fantasy VII</span>
+                <hr>
+                <h3>Cloud Strife Remake</h3>
+                <p>Figurine de 8 pouces - livrée avec son packaging</p>
+                <div class="add-to-cart">
+                    <a class="add-to-cart__link" href="#">Ajouter au panier</a>
+                    <div class="add-to-cart__price">
+                        <span class="add-to-cart__price__old-price">79,99 €</span>
+                        <span class="add-to-cart__price__new-price">49,99 €</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <!-- Contenu -->
-        <main class="main">
-            <h3>Préfèrences de livraison</h3>
-            <section class="delivery">
-                <section>
-                    <fieldset>
-                        <legend>Où souhaitez vous être livré ?</legend>
-
-                        <label for="adress">
-                            <input type="radio" id="adress" name="delivery">
-                            Mon adresse courante
-                        </label>
-
-                        <label for="other-adress">
-                            <input type="radio" id="other-adress" name="delivery">
-                            Autre adresse
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Options</legend>
-
-                        <label for="sms">
-                            <input type="checkbox" id="sms" name="sms">
-                            Suivi delivraison par sms (inclus)
-                        </label>
-
-                        <label for="remboursé">
-                            <input type="checkbox" id="remboursé" name="remboursé">
-                            Satisfait ou remboursé (+5€)
-                        </label>
-
-                        <label for="garantie">
-                            <input type="checkbox" id="garantie" name="garantie">
-                            Garantie 2 ans (+10€)
-                        </label>
-                    </fieldset>
-                </section>
-
-                <section>
-                    <fieldset>
-                        <legend>Adresse</legend>
-
-                        <label for="name">Rue</label>
-                        <input type="text" id="name" name="name" required>
-
-                        <label for="postal">Code postal</label>
-                        <input type="text" id="postal" name="postal" required>
-
-                        <label for="city">Ville</label>
-                        <input type="text" id="city" name="city" required>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Informations compémentaires</legend>
-
-                        <label for="phone">Interphone, bâtiment,etc...</label>
-                        <textarea type="text" id="additional-information" name="additional-information" rows="2" cols="40"></textarea>
-                    </fieldset>
-                </section>
-            </section>
-
-            <hr>
-            <section class="total-summary">
-                <p>Montant total à régler:
-                </p>
-                <span class="total-price">197 €</span>
-            </section>
-            <hr>
-            <section class="btn-group">
-                <button type="submit" class="btn__buy">Continuer vos achats</button>
-                <button type="submit" class="btn__paid">Valider et payer</button>
-            </section>
-            <hr>
-        </main>
-
-        <!-- Pied de page -->
-        <footer class="footer">
-            <p>&copy; 2023 O-fig-panier. All rights reserved.</p>
-        </footer>
-    </div>
+    <!-- Pied de page -->
+    <footer class="footer">
+        <p>&copy; 2023 O-fig-panier. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>

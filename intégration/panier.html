@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../public/css/index.css">
+    <link rel="stylesheet" href="../public/css/fonts.css">
+    <link rel="stylesheet" href="../public/css/footer.css">
+    <link rel="stylesheet" href="../public/css/header.css">
+    <title>O-fig-panier</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- En-tête -->
+        <header class="header">
+            <div class="header__title">
+                <div class="header__title-text">
+                    <h1>oFig</h1><span>Figurines et statuettes</span>
+                </div>
+                <div class="header__nav">
+                    <a href="../index.html">accueil</a>
+                </div>
+            </div>
+            <div class="header__subtitle">
+                <h2>Figurines sur le thème <em>Final Fantasy</em>
+                </h2>
+            </div>
+        </header>
+
+        <!-- Contenu -->
+        <main class="main">
+            <h3>Préfèrences de livraison</h3>
+            <section class="delivery">
+                <section>
+                    <fieldset>
+                        <legend>Où souhaitez vous être livré ?</legend>
+
+                        <label for="adress">
+                            <input type="radio" id="adress" name="delivery">
+                            Mon adresse courante
+                        </label>
+
+                        <label for="other-adress">
+                            <input type="radio" id="other-adress" name="delivery">
+                            Autre adresse
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Options</legend>
+
+                        <label for="sms">
+                            <input type="checkbox" id="sms" name="sms">
+                            Suivi delivraison par sms (inclus)
+                        </label>
+
+                        <label for="remboursé">
+                            <input type="checkbox" id="remboursé" name="remboursé">
+                            Satisfait ou remboursé (+5€)
+                        </label>
+
+                        <label for="garantie">
+                            <input type="checkbox" id="garantie" name="garantie">
+                            Garantie 2 ans (+10€)
+                        </label>
+                    </fieldset>
+                </section>
+
+                <section>
+                    <fieldset>
+                        <legend>Adresse</legend>
+
+                        <label for="name">Rue</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="postal">Code postal</label>
+                        <input type="text" id="postal" name="postal" required>
+
+                        <label for="city">Ville</label>
+                        <input type="text" id="city" name="city" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Informations compémentaires</legend>
+
+                        <label for="phone">Interphone, bâtiment,etc...</label>
+                        <textarea type="text" id="additional-information" name="additional-information" rows="2"
+                            cols="40"></textarea>
+                    </fieldset>
+                </section>
+            </section>
+
+            <hr>
+            <section class="total-summary">
+                <p>Montant total à régler:
+                </p>
+                <span class="total-price">197 €</span>
+            </section>
+            <hr>
+            <section class="btn-group">
+                <button type="submit" class="btn__buy">Continuer vos achats</button>
+                <button type="submit" class="btn__paid">Valider et payer</button>
+            </section>
+            <hr>
+        </main>
+
+        <!-- Pied de page -->
+        <footer class="footer">
+            <p>&copy; 2023 O-fig-panier. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
